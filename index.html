@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>白墙 · 摄影作品展</title>
+<meta name="description" content="一个安静的摄影作品展。">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23faf9f7'/><rect x='7' y='9' width='18' height='14' fill='none' stroke='%2317161a' stroke-width='1'/></svg>">
+</head>
+<body data-page="index">
+
+<header class="site-head">
+  <div class="wrap inner">
+    <a class="brand" href="index.html">
+      白墙
+      <small id="brandSub">PHOTOGRAPHY</small>
+    </a>
+    <nav class="head-nav">
+      <a href="#wall">系列</a>
+      <a href="#about">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap hero">
+    <div class="kicker"><span class="label" id="heroKicker">展 览</span></div>
+    <h1 id="heroTitle">白墙</h1>
+    <p class="sub" id="heroSub">摄影作品展</p>
+    <p class="intro" id="heroIntro"></p>
+
+    <div class="hero-meta">
+      <div><span class="n" id="statSeries">—</span><span class="k">系列</span></div>
+      <div><span class="n" id="statPhotos">—</span><span class="k">作品</span></div>
+      <div><span class="n" id="statYear">—</span><span class="k">年份</span></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="wall">
+    <div class="section-head">
+      <h2>系列</h2>
+      <span class="label" id="wallHint">&nbsp;</span>
+    </div>
+    <div class="series-grid" id="seriesGrid"></div>
+  </section>
+
+  <section class="wrap" id="about" style="padding-bottom:clamp(70px,10vw,120px)">
+    <div class="section-head"><h2>关于</h2></div>
+    <p class="intro" id="aboutText" style="max-width:640px;margin:0;color:var(--ink-2);font-size:14px;line-height:2.05;white-space:pre-line"></p>
+  </section>
+</main>
+
+<footer class="wrap site-foot">
+  <span id="footLeft">白墙 · 摄影作品展</span>
+  <span id="footRight"></span>
+</footer>
+
+<script>window.WW_STATIC = true;</script>
+<script src="assets/gallery.js"></script>
+</body>
+</html>
